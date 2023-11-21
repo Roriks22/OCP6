@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: local("GoldmanBold"), url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-weight: 500;
 }
 #root {
@@ -611,7 +611,7 @@ footer p {
     display: flex;
     justify-content: end;
   }
-  h6 {
+  .hostInfo h6 {
     font-size: 12px;
   }
 }
