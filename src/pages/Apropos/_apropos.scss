@@ -1,0 +1,22 @@
+    .banner_apropos {
+        width: 1240px;
+        height: 223px;
+        top: 146px;
+        left: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .apropos_main {
+        padding-left: 200px;
+        padding-right: 182px;
+    }
+
+    @media (max-width: 1375px) {
+        .banner_apropos {
+            width: 100%;
+            padding: 0;
+        }
+        .apropos_main {
+            padding: 0;
+        }  
+}

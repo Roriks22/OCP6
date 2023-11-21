@@ -1,0 +1,40 @@
+.error {
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 160px;
+    h1 img {
+        height: 263px;
+        padding-bottom: 139px;
+    }
+    h2 {
+        color: #ff6060;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 51px;
+        letter-spacing: 0em;
+        padding-bottom: 139px;
+    }
+    a {      
+        color:#ff6060; 
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .error h1 img {
+        width: 50%;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    .error h2 {
+        font-size: 18px;
+    }
+    a {
+        font-size: 14px;
+    }
+}

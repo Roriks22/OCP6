@@ -1,0 +1,93 @@
+.carousel{
+    display: flex;
+    position: relative;
+    margin-left: 72px;
+    margin-top: 71px;
+    .carouselImage{
+        width: 100%;
+    }
+    .carousel_arrow_left{
+        position: absolute; 
+        cursor: pointer;
+        margin-top: 150px;
+        margin-left: 45px;
+    }
+    .carousel_arrow_right{
+        position: absolute; 
+        cursor: pointer;
+        margin-left: 1200px;
+        margin-top: 150px;
+    }
+    .nbImage{
+        position: absolute;
+        bottom: 2%;
+        left: 48%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .imageCarousel{
+        object-fit: cover;
+        border-radius: 25px;
+        width: 1240px;
+        height: 415px;
+        top: 163px;
+        left: 100px;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .carousel {
+        margin: 0;
+    .imageCarousel {
+        display: flex;
+    }
+    .carouselImage {
+        max-width: 100%;
+    }
+    .carousel_arrow_right{
+        display: flex;
+    }
+}
+}
+
+@media (max-width: 1260px) {
+    .carousel {
+        display: flex;
+        margin: 0;
+        width: 100%;
+    .imageCarousel {
+        margin: 0;
+        max-width: 100%;
+    }
+    .carouselImage {
+        margin: 0;
+        max-width: 100%;
+    }
+    .carousel_arrow_right {
+        margin-left: 93%;
+    }
+}
+}
+@media (max-width: 1000px) {
+    .carousel .carousel_arrow_right {
+        margin-left: 93%;
+    }
+}
+@media (max-width: 800px) {
+    .carousel .carousel_arrow_right {
+        margin-left: 89%;
+    }
+}
+@media (max-width: 600px) {
+    .carousel .carousel_arrow_right {
+        height: 24px;
+        margin-left: 87%;
+        margin-top: 220px;
+    }
+    .carousel_arrow_left {
+        height: 24px;
+        padding-top: 71px;
+    }
+}

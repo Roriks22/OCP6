@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("GoldmanBold"), url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 500;
+}
+#root {
+  max-width: 1440px;
+  margin: auto;
+  font-family: Montserrat;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+.tag_name{
+    background-color: #ff6060;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    height: 25px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 15px;
+    padding: 8px 20px 5px 20px;
+    height: fit-content;
+}
+
+@media (max-width: 884px) {
+    .tag_name {
+        font-size: 10px;
+    }
+}
