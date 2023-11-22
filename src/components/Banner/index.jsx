@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Création de la fonction Banner avec les props.
+// Création du composant Banner et création des props.
 const Banner = ({imgSrc, imgText, imgAlt}) => {
     return (
 
