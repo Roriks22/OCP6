@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Création du composant Card et création des props.
+// Création du composant Card et indication des props.
 const Card = ({title, image, id}) => {
     return (
 

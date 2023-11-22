@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Création du composant Banner et création des props.
+// Création du composant Banner et indications des props.
 const Banner = ({imgSrc, imgText, imgAlt}) => {
     return (
 
