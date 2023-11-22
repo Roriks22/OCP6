@@ -4,7 +4,7 @@ import logo_footer from '../../assets/images/logo_footer.png';
 const Footer = () => {
     return (
         <footer>
-            <img src={logo_footer} alt="logo footer" />
+            <img src={logo_footer} alt="logo footer Kasa" />
             <p>© 2020 Kasa. All rights reserved</p>
         </footer>
     )
