@@ -1,6 +1,7 @@
 import React from 'react';
 import error_404 from '../../assets/images/404.png';
 
+// Création du composant Error.
 const Error = () => {
     return (
 

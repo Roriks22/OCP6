@@ -3,6 +3,7 @@ import Banner from '../../components/Banner';
 import banner_apropos from '../../assets/images/banner_apropos.png';
 import Collapse from '../../components/Collapse';
 
+// Création du composant Apropos.
 const Apropos = () => {
     return (
     <main>

@@ -9,6 +9,7 @@ import Collapse from '../../components/Collapse';
 import Host from '../../components/Host';
 import Equipment from '../../components/Equipment';
 
+// Création du composant Logement.
 const Logement = () => {
 
 // Utilisation du hook useParams pour faciliter l'accès aux paramètres d'une URL d'un route.

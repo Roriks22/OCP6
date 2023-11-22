@@ -4,6 +4,7 @@ import banner_home from '../../assets/images/banner_home.png';
 import Card from '../../components/Card';
 import { logements } from '../../datas/logements';
 
+// Création du composant Home.
 const Home = () => {
     return (
         // Utilisation de l'id pour gérer avec le style scss.
