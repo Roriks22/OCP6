@@ -6,11 +6,19 @@ import Collapse from '../../components/Collapse';
 const Apropos = () => {
     return (
     <main>
+
+        {/* Utilisation du className pour gérer le style avec le scss. */}
         <div className='banner_apropos'>
+
+            {/* Utilisation du composant enfant Banner pour gérer l'image et le alt grâce aux props. */}
             <Banner
             imgSrc={banner_apropos} imgAlt="Banniere paysage" />
         </div>
+
+        {/* Utilisation du className pour gérer le style avec le scss. */}
             <div className='apropos_main'>
+                
+                {/* Utilisation du composant enfant Collapse pour gérer le titre et le contenu avec les props. */}
                 <Collapse 
                 title="Fiabilité"
                 content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
